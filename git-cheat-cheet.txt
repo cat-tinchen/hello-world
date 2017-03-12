@@ -1,0 +1,8 @@
+git status
+git add
+git add .
+git add *.html
+git commit -m ''
+git commit -a -m '' # will stage also changes in files that already commited in git
+git branch <new-branch-name> # exec in master branch
+git merge <branch-name> # exec in master branch
