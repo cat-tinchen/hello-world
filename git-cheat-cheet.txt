@@ -1,18 +1,19 @@
 git init # initialize new repository
 
 git status # see local changes
+git diff # see changes in files
 git add # stage changes, prepare changes for committing
 git add . # stage everything
 git add *.html
 git commit -m ''
-git commit -a -m '' # will stage also changes in files that already commited in git
+git commit -a -m '' # will stage also changes in files that already committed in git
 git add # also resolves conflicts!
 git branch <new-branch-name> # exec in master branch
-git chechout <branch-name> # could be also master branch
+git checkout <branch-name> # could be also master branch
 git merge <branch-name> # exec in master branch
-          # merge is also comitting automatically, except there are conflicts
+          # merge is also committing automatically, except there are conflicts
 
-git stash # save local changes asside
+git stash # save local changes aside
 git stash apply # put stages back to local checkout
 
 git clone https://github.chom/cat-tinchen/hello-world.git
