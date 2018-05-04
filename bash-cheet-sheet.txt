@@ -1,1 +1,16 @@
 bash cheet sheet
+---------------------------------
+
+ls -l #long
+ls -a #all, also hidden files/folder
+
+~/.Trash #Papierkorb beim Mac
+
+* Dateine vom Finder in die Shell ziehen, kopiert den Dateipfad
+ 
+* ctrl + alt + a #Zeilenanfang
+* ctrl + alt + e #Zeilenende
+
+grep Apple ~/Documents/MeinArtikel.txt #sucht Apple in MeinArtikel.txt
+
+ls -R | grep '^IMG_[36][0-9]*.jpg' #RegEx auf der Shell
