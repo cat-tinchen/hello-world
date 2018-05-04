@@ -14,3 +14,8 @@ ls -a #all, also hidden files/folder
 grep Apple ~/Documents/MeinArtikel.txt #sucht Apple in MeinArtikel.txt
 
 ls -R | grep '^IMG_[36][0-9]*.jpg' #RegEx auf der Shell
+
+* less, mit Leerzeichen Seite nach unten blättern, b nach oben blättern, h zeigt Hilfe an
+
+* (cmd+alt+esc) #Programme sofort beenden bei Mac
+
