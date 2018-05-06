@@ -19,3 +19,11 @@ ls -R | grep '^IMG_[36][0-9]*.jpg' #RegEx auf der Shell
 
 * (cmd+alt+esc) #Programme sofort beenden bei Mac
 
+* ps auxww # listet alle Prozesse
+* ps auxww | grep Pages
+
+* kill <pid>
+* kill -9 <pdi>
+* killall Pages
+
+* top #zeigt alle prozesse in Echtzeit an
