@@ -1,0 +1,49 @@
+### Sentinel Usage
+Bsp. um über Sentinel den aktuellen Redis-Master-Knoten rauszufinden:
+ 
+* Mit Sentinel verbinden:
+``` bash
+redis-cli -h <real-host> -p 6379
+```
+ 
+* Auf Sentinel get-master-by-addr (Bsp. Targeting-Redis):
+``` bash
+SENTINEL get-master-addr-by-name <mastername>  
+1) "172.1.2.3"
+2) "6379"
+```
+ 
+* Auf Master-Knoten verbinden:
+``` bash
+redis-cli -h 172.1.2.3
+
+######################################################
+
+*** Strings 
+
+SET my-key a-value
+OK
+
+GET my-key
+"a-value"
+
+DEL my-key
+(integer) 1
+
+*** Hashes
+
+HMSET my-hash username tutorialspoint password tutorialspoint points 200 
+OK 
+
+HGETALL my-hash  
+1) "username" 
+2) "tutorialspoint" 
+3) "password" 
+4) "tutorialspoint" 
+5) "points" 
+6) "200"
+
+DEL my-hash
+(integer) 1
+
+*** Lists
