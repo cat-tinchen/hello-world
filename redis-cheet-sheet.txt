@@ -47,3 +47,26 @@ DEL my-hash
 (integer) 1
 
 *** Lists
+
+LPUSH my-list value1 value2 value3 value4
+(integer) 4
+
+LSET my-list 2 another-value
+OK
+
+LLEN my-list
+(integer) 4
+
+LRANGE my-list 0 4
+1) "value4"
+2) "value3"
+3) "another-value"
+4) "value1"
+
+del my-list
+(integer) 1
+
+*** Sets
+
+
+
