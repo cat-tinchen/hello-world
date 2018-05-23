@@ -111,3 +111,12 @@ RANDOMKEY # :)
 RENAME key newkeyname
 
 TYPE key
+
+*** Transactions
+
+MULTI # start transaction
+<some commands>
+
+EXEC # execute commands
+
+DISCARD # forget about commands after MULTI
