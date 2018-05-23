@@ -68,5 +68,23 @@ del my-list
 
 *** Sets
 
+sadd chrissi christina-hardt.de c-tinchen.de
+(integer) 2
 
+smembers chrissi
+1) "c-tinchen.de"
+2) "christina-hardt.de"
 
+srem chrissi c-tinchen.de
+(integer) 1
+
+sismember chrissi c-tinchen.de
+(integer) 0
+
+sismember chrissi christina-hardt.de
+(integer) 1
+
+del chrissi
+(integer) 1
+
+*** Sorted Sets
