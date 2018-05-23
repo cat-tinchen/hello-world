@@ -88,3 +88,26 @@ del chrissi
 (integer) 1
 
 *** Sorted Sets
+
+# still missing, cause not interesting
+
+*** other interesting commands:
+
+DUMP key # returns serialized version of value
+
+EXISTS key
+
+EXPIRE key seconds # Sets the expiry of the key after the specified time.
+EXPIREAT key timestamp
+
+KEYS pattern* # returns all keys that match the pattern
+
+PERSISTS key # removes ttl from key
+
+TTL key # removes the remaining ttl of key, is -1 when there is no ttl
+
+RANDOMKEY # :)
+
+RENAME key newkeyname
+
+TYPE key
