@@ -1,0 +1,29 @@
+Prinzipien:
+
+ * Rechtmäßigkeit, Verarbeitung nach Treu und Glauben und Transparenz
+ * Zweckbindung
+ * Datenminimierung
+ * Richtigkeit
+ * Speicherbegrenzung
+ * Integrität und Vertraulichkeit
+ * Rechenschaftspflicht
+
+
+Erweiterte Rechte für Datensubjekte:
+
+ * Recht auf Zugang
+ * Recht auf Berichtigung unrichtiger Daten
+ * Recht auf Löschung
+ * Recht auf Widerspruch
+ * Recht auf Datenübertragbarkeit
+ * Rechte bezüglich automatisierter Entscheidungsfindung
+ * Recht auf die Einschränkung der Verarbeitung
+
+
+Veränderungen für Organisationen
+ * Rechenschaftspflicht
+ * Datenschutzbeauftragte
+ * Einwilligung
+ * Meldepflicht bei Verstößen
+ * Datenschutz-Folgenabschätzung
+ * „Eingebauter“ Datenschutz
