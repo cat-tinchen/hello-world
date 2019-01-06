@@ -1,0 +1,15 @@
+Definition of Ready
+
+ * Anforderungen sind von allen verstanden
+ * Nutzen für Kunden und/oder Unternehmen -> Business Value
+ * Akzeptanzkriterien vorhanden
+ * Akzeptanzkriterien von allen verstanden
+ * alle "zwingend nötigen" Vorarbeiten sind fertig (User Story)
+   - Services: deployed, getestet, Dokumentation vorhanden
+   - Shop: deployed, getestet, Dokumentation vorhanden
+   - Mailings: deployed, getestet, Dokumentation vorhanden
+ * wurde in Story Points geschätzt
+ * klein genug das es in 1 Sprint passt
+
+
+Definition of Done
