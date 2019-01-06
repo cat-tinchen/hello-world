@@ -13,3 +13,12 @@ Definition of Ready
 
 
 Definition of Done
+
+ * Umsetzung fertig, UnitTests vorhanden und sind grün, in SVN/Git eingecheckt, Teststage vorhanden
+ * QA abgeschlossen, Testabdeckung ausreichend, keine Major/Critical/Blocker Bugs vorhanden
+ * PO ist zufrieden, Akzeptanztests bestanden
+ * alle (Scrum Team) hat ein gutes Gefühl und ist Bereit den Stand live zu stellen
+   - fehlende Texte
+   - vorhandene Bugs
+   - Testabdeckung ausreichend
+   - ...
