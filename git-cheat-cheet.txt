@@ -1,13 +1,19 @@
 git init # initialize new repository
 
-git status # see local changes
-git diff # see changes in files
+git status # see local changes, not in local repository
+git status -s # in short version
+
+git diff # see changes in files, compares workspace with repository (not staged area with repository)
+git diff -staged
+
 git add # stage changes, prepare changes for committing
 git add . # stage everything
 git add *.html
-git commit -m ''
-git commit -a -m '' # will stage also changes in files that already committed in git
 git add # also resolves conflicts!
+
+git commit -m ''
+git commit -am '' # will stage also changes in files that already committed in git
+
 git branch <new-branch-name> # exec in master branch
 git checkout <branch-name> # could be also master branch
 git merge <branch-name> # exec in master branch
@@ -17,3 +23,7 @@ git stash # save local changes aside
 git stash apply # put stages back to local checkout
 
 git clone https://github.chom/cat-tinchen/hello-world.git
+
+git log
+git log --oneline
+git log --oneline --graph
