@@ -17,6 +17,11 @@
     <span th:case="'mssql'" th:text="MsSQL" />
 </td>
 
+th:remove="tag" --> useful to build bitter structures
+<span th:remove="tag" th:each="domainId : ${webspace.connectedDomains.size()}">
+  <span th:text="${domainId}"/><br/>
+</span>
+
 ### formulars ###
 <form action="#" th:action="@{/saveStudent}" th:object="${student}" method="post">
     <table border="1">
@@ -61,3 +66,19 @@ fragment:
   </div>
 </div>
      
+### variables ###
+<div th:each="article : ${articles}">
+    <a th:text="${article.name}" th:href="${article.url}"></a>
+</div>
+
+<div th:with="firstArticle=${articles[0]}">
+    <a th:text="${firstArticle.name}" th:href="${firstArticle.url}"></a>
+</div>
+
+<div th:each="article : ${articles}", th:with="articleName=${article.name}">
+    <a th:text="${articleName}" th:href="${article.url}"></a>
+</div>
+
+<div th:each="article : ${articles}" th:with="articleName=${article.name}, articleUrl=${article.url}">
+    <a th:text="${articleName}" th:href="${articleUrl}"></a>
+</div>
