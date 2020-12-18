@@ -44,3 +44,20 @@ inside ftp-ssh-card.html
      xmlns:th="http://www.thymeleaf.org" xmlns:link="http://www.w3.org/1999/xhtml"
      th:fragment="ftp-ssh-card" th:remove="tag"> ... </div>
      
+### fragment with params ###
+insert fragment:
+th:insert="fragments/hosting-overview/quotabar(used='123', max='467',percentage='39')"
+
+fragment:
+<div xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+     xmlns:th="http://www.thymeleaf.org" xmlns:link="http://www.w3.org/1999/xhtml"
+     th:fragment="quotabar (used, max, percentage)" th:remove="tag">
+
+  <div class="quotabar">
+    <div class="quotabar__bar">
+      <span class="quotabar__value" th:style="'width: ' + ${percentage} + '%;'"></span>
+    </div>
+    <p class="quotabar__text" th:text="${used} + #{component.quota.of} + ${max}" />
+  </div>
+</div>
+     
