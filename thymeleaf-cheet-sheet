@@ -1,3 +1,18 @@
+### insert messages (i18n) ###
+<div class="text" th:text="#{some.message.key}" />
+
+### insert data from vars ###
+<div class="text" th:text="${var.subvar[0].value}" />
+<div class="text" th:text="${var.subvar.valueOfGetter}" />
+<div class="text" th:text="${var.subvar.callAnyMethod()}" /> -> not best practise
+
+### if / if not cases ###
+<div class="text" th:if="${sucess.happened == true}" th:text="#{success.message.key}" />
+<div class="text" th:unless="${sucess.happened == true}" th:text="#{normal.message.key}" />
+<div class="text" th:if="${error.happened == true}" th:text="#{error.message.key}" />
+
+### Fragments ###
+
 outside:
 th:insert="fragments/hosting-overview/ftp-ssh-card"
 
