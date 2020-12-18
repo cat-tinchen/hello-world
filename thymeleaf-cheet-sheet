@@ -1,0 +1,10 @@
+outside:
+th:insert="fragments/hosting-overview/ftp-ssh-card"
+
+separate file under fragments/hosting-overview
+file ftp-ssh-card.html
+inside ftp-ssh-card.html
+<div xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+     xmlns:th="http://www.thymeleaf.org" xmlns:link="http://www.w3.org/1999/xhtml"
+     th:fragment="ftp-ssh-card" th:remove="tag"> ... </div>
+     
