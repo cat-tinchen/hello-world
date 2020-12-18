@@ -82,3 +82,10 @@ fragment:
 <div th:each="article : ${articles}" th:with="articleName=${article.name}, articleUrl=${article.url}">
     <a th:text="${articleName}" th:href="${articleUrl}"></a>
 </div>
+
+### lists, status variables ###
+<div th:remove="tag" th:each="domain, status : ${webspace.connectedDomains}">
+  <span th:text="${domain}"/>
+  <span th:unless="${status.last}">, </span>
+  <span th:if="${status.last}"> (+1)</span>
+</div>
