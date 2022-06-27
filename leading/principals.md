@@ -1,4 +1,6 @@
-# Prinzipien, nach F
+# Prinzipien
+
+nach Fredmund Malik
 
 1. Es kommt nur auf die Resultate an.
 
