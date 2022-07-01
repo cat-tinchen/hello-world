@@ -11,6 +11,19 @@ Entscheidungen treffen
 
 5. Einladung mit Hintergrund, Ziel und Tagesordnung des Meetings verschicken.
 
-6. Ergebnisse des Meetings festhalten 
+
+A. Begrüßung, Hintergrund und Ziel des Meetings nennen
+
+B. Protokollieren (lassen), Ergebnisse/Entscheidungen festhalten 
+Für Aktionen Verantwortlichen und Deadline festhalten: Wer? Was? Wann?
+
+C. Aktionen vom letzten Meeting durchgehen. 
+Oder Tagesordnungspunkte nach und nach besprechen. 
+
+D. Jeder redet nur wenn er was wichtiges/ neues beizutragen hat;
+Jeder fast sich kurz (2-3 min);
+Smartphones sind aus, keine Emails lesen;
+
+
 
 7. Am Ende bei allen für die Teilnahme bedanken.
